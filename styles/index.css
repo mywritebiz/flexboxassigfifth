@@ -1,0 +1,146 @@
+body {
+    background-color: #370617;;
+    margin: 0;
+    /*position: relative;
+    width: 1152px;
+    height: 700px;*/
+}
+
+.flex__example {
+    height: 100vh; 
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex__heading {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.container {
+    background-color: #F48C06;
+    border: 5px solid coral;
+    border-radius: 8px;
+    position: relative;
+    width: 70%;
+    min-height: 50%;
+    padding: 20px 0;
+    margin: 20px;
+    display: flex;
+    
+    
+    /* flex-flow: row wrap;
+    justify-content: space-around;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+    align-items: baseline;
+
+    flex-direction: column; 
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+
+
+    */
+}
+
+.card {
+    background-color:#9D0208;
+    border: 5px solid black;
+    border-radius: 4px;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 180px;
+}
+
+/* Margins and paddings maximum of 20px. All the placement should be done with Flexbox.
+Circles are created with div's
+Screens are minimum of
+100vh */
+
+.first {
+    /*
+    flex-grow: 2;
+    order: 1; */
+}
+
+.last {
+    /*order:-1*/
+}
+
+.second {
+    background-color: darkgrey;
+}
+
+.large {
+    flex-wrap: wrap;
+    /*
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    */
+    min-height: 60%;
+}
+
+/*
+header {
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px; 
+
+}
+
+.card {
+    max-width: 200px;
+    min-height: 300px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    justify-content: center;
+    bottom: 10px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: rgb(238, 238, 79);
+}
+
+.btn--success {
+    background-color: rgb(5, 197, 5);
+}
+
+.btn--decline {
+    background-color: rgb(241, 35, 35);
+}*/
