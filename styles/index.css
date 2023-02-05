@@ -1,44 +1,54 @@
 .parent {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     width: 1152px;
     margin: auto;
     background-color: #370617;
  }
- 
  .container {
     background-color: #F48C06;
     border: none;
     border-radius: 8px;
     width: 468px;
     height: 160px;
-    position: relative;
-    margin: 20px;
+    margin: 10px;
     display: flex;
  }
- 
  .card {
     background-color:#9D0208;
     border: none;
     border-radius: 4px;
     width: 78px;
     height: 78px;
-    margin: 5px;
+    margin: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
  }
- 
+
+
 .first-block {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     width: 468px;
     height: 160px;
-    margin: 20px 
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
+.firstb-cardone {
+    margin-bottom: 19px;
+    margin-left: 19px;
+}
+.firstb-cardtwo {
+    margin-bottom: 19px;
+    margin-left: 10px;
+}
+.firstb-cardthree {
+    margin-bottom: 19px;
+    margin-left: 10px;
+}
+
 
 .second-block {
     display: flex;
@@ -46,10 +56,154 @@
     align-items: center;
     width: 468px;
     height: 160px;
-    margin: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.sb-cardone {
+    height: 120px;
+    box-shadow: 2px 2px 4px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.sb-cardtwo {
+    height: 120px;
+    box-shadow: 2px 2px 4px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.sb-cardthree {
+    height: 120px;
+    box-shadow: 2px 2px 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
+.third-block{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.tb-cardone {
+    box-shadow: 2px 2px 4px;
+}
+.tb-cardtwo {
+    box-shadow: 2px 2px 4px;
+    margin-left: 10px;
+}
+.tb-cardthree {
+    box-shadow: 2px 2px 4px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+.fourth-block {
+    display: flex;
+    gap: 79px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.fb-cardone {
+    box-shadow: 2px 2px 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+.fb-cardtwo {
+    box-shadow: 2px 2px 4px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+.fb-cardthree {
+    box-shadow: 2px 2px 4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+
+.fif-block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.h1 {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.h2{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    color: #FFFFFF;    
+}
+.h3 {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.fifb-cardone {
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifb-cardtwo {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifb-cardthree {
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.six-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sixb-cardone {
+    box-shadow: 2px 2px 4px;
+    margin-right: 10px;
+}
+.sixb-cardtwo {
+    box-shadow: 2px 2px 4px;
+    display: flex;
+    flex-grow: 0.45;
+}
+.sixb-cardthree {
+    box-shadow: 2px 2px 4px;
+    margin-left: 10px;
+}
 
 
 body {
@@ -58,3 +212,7 @@ body {
     min-height: 100vh;
  }
  
+ /* Margins and paddings maximum of 20px. 
+ All the placement should be done with Flexbox.
+ Circles are created with div’s 
+ Screens are minimum of 100vh */
